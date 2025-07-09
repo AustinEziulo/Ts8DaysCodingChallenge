@@ -1,15 +1,138 @@
 body {
-
+  padding: 0;
+  margin: 0;
+  background-color: rgb(71, 70, 70);
+  color: beige;
 }
 
 header {
-
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: end;
+  background-color: beige;
+  position: fixed;
 }
 
+header nav {
+  display: flex;
+  width: 60%;
+  justify-content: space-evenly;
+}
 
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(71, 70, 70);
+}
 
+.home {
+ display: flex;
+ width: 100%;
+ justify-content: space-evenly;
+}
 
+.leftHome {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: auto;
+  align-items: center;
+}
+
+.leftHome button {
+  width: 200px;
+  height: 50px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px none;
+  background-color: rgb(173, 149, 119);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.leftHome button:hover{
+  width: 220px;
+  height: 55px;
+  background-color: rgb(153, 125, 91);;
+}
+
+.leftHome, .rightHome {
+  width: 48%;
+  margin-top: 100px;
+}
+
+.rightHome img {
+  width: 100%;
+}
+
+.about {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.leftAbout {
+  width: 48%;
+}
+
+.leftAbout img {
+  width: 100%;
+}
+
+.rightAbout {
+  width: 48%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.rightAbout h2 {
+  text-align: center;
+}
+
+.services {
+  font-size: 20px;
+  text-align: justify;
+  margin: 10px 10px;
+}
+
+.skills {
+  font-size: 20px;
+  text-align: justify;
+  margin: 10px 10px;
+}
+
+.projects {
+  font-size: 20px;
+  text-align: justify;
+  margin: 10px 10px;
+}
+
+.contact {
+  font-size: 20px;
+  text-align: justify;
+  margin: 10px 10px;
+}
+
+.contact img {
+  width: 50px;
+}
+
+.contact .socials {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact img:hover {
+  width: 40px;
+  border-radius: 22px;
+}
 
 footer {
-
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 10px;
 }
